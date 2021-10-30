@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round-brdr {
+    border-radius: 10px;
+}
+.main{
+    height: 500px;
+    width: 800px;
+    background-color: cyan;
+}
+.container{
+    width: calc(100% - 40px);
+    height: 200px;
+}
+.ques {
+    margin: 20px;
+    background-color: wheat;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 100%;
+}
+.options-container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    background-color: white;
+    width: calc(50% - 40px);
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
